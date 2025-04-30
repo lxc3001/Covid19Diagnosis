@@ -1,0 +1,409 @@
+============== Round 1/5 ==============
+
+========== Running baseline_1 ==========
+Running Baseline 1: Random Initialization
+Baseline setup complete
+Epoch [1/10] Loss: 46.1324, Train Accuracy: 0.2194
+Epoch [2/10] Loss: 26.6156, Train Accuracy: 0.1774
+Epoch [3/10] Loss: 22.1820, Train Accuracy: 0.2387
+Epoch [4/10] Loss: 15.6812, Train Accuracy: 0.2032
+Epoch [5/10] Loss: 11.9313, Train Accuracy: 0.2452
+Epoch [6/10] Loss: 12.4146, Train Accuracy: 0.2097
+Epoch [7/10] Loss: 14.0430, Train Accuracy: 0.1806
+Epoch [8/10] Loss: 11.7285, Train Accuracy: 0.2387
+Epoch [9/10] Loss: 12.2826, Train Accuracy: 0.2000
+Epoch [10/10] Loss: 9.7271, Train Accuracy: 0.2161
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 3: 2, 6: 2})
+Predicted Distribution:    Counter({3: 59, 0: 15, 6: 2, 1: 2})
+[baseline_1] Test F1 Score: 0.0578, Accuracy: 0.1410
+
+========== Running baseline_2 ==========
+Running Baseline 2: ImageNet Pretrained + ClinicalBERT
+Baseline setup complete
+Epoch [1/10] Loss: 2.2411, Train Accuracy: 0.2194
+Epoch [2/10] Loss: 1.6729, Train Accuracy: 0.3355
+Epoch [3/10] Loss: 1.5201, Train Accuracy: 0.4903
+Epoch [4/10] Loss: 1.4331, Train Accuracy: 0.4387
+Epoch [5/10] Loss: 1.3229, Train Accuracy: 0.4484
+Epoch [6/10] Loss: 1.2333, Train Accuracy: 0.4935
+Epoch [7/10] Loss: 1.0811, Train Accuracy: 0.5645
+Epoch [8/10] Loss: 1.1389, Train Accuracy: 0.6097
+Epoch [9/10] Loss: 0.9608, Train Accuracy: 0.6806
+Epoch [10/10] Loss: 0.9740, Train Accuracy: 0.5774
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 3: 2, 6: 2})
+Predicted Distribution:    Counter({2: 31, 0: 25, 5: 20, 3: 2})
+[baseline_2] Test F1 Score: 0.1777, Accuracy: 0.3846
+
+========== Running convirt ==========
+Epoch [1/10] Loss: 1.9118, Train Accuracy: 0.3129
+Epoch [2/10] Loss: 1.8834, Train Accuracy: 0.4129
+Epoch [3/10] Loss: 1.8699, Train Accuracy: 0.4548
+Epoch [4/10] Loss: 1.8444, Train Accuracy: 0.4742
+Epoch [5/10] Loss: 1.8309, Train Accuracy: 0.4871
+Epoch [6/10] Loss: 1.8125, Train Accuracy: 0.4935
+Epoch [7/10] Loss: 1.7983, Train Accuracy: 0.5194
+Epoch [8/10] Loss: 1.7885, Train Accuracy: 0.5290
+Epoch [9/10] Loss: 1.7697, Train Accuracy: 0.5645
+Epoch [10/10] Loss: 1.7651, Train Accuracy: 0.5677
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 3: 2, 6: 2})
+Predicted Distribution:    Counter({0: 56, 1: 19, 5: 3})
+[convirt] Test F1 Score: 0.1317, Accuracy: 0.4615
+
+========== Running sequential_convirt ==========
+Epoch [1/10] Loss: 1.9243, Train Accuracy: 0.0452
+Epoch [2/10] Loss: 1.8782, Train Accuracy: 0.2645
+Epoch [3/10] Loss: 1.8446, Train Accuracy: 0.4839
+Epoch [4/10] Loss: 1.8161, Train Accuracy: 0.5226
+Epoch [5/10] Loss: 1.8155, Train Accuracy: 0.5516
+Epoch [6/10] Loss: 1.8041, Train Accuracy: 0.5516
+Epoch [7/10] Loss: 1.7892, Train Accuracy: 0.5355
+Epoch [8/10] Loss: 1.7775, Train Accuracy: 0.5161
+Epoch [9/10] Loss: 1.7719, Train Accuracy: 0.5258
+Epoch [10/10] Loss: 1.7649, Train Accuracy: 0.5290
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 3: 2, 6: 2})
+Predicted Distribution:    Counter({0: 56, 1: 14, 6: 4, 5: 4})
+[sequential_convirt] Test F1 Score: 0.2419, Accuracy: 0.5513
+
+========== Running hier_model ==========
+Epoch [1/10] Loss: 1.9157, Train Accuracy: 0.2645
+Epoch [2/10] Loss: 1.8715, Train Accuracy: 0.4839
+Epoch [3/10] Loss: 1.8460, Train Accuracy: 0.5000
+Epoch [4/10] Loss: 1.8122, Train Accuracy: 0.5484
+Epoch [5/10] Loss: 1.7888, Train Accuracy: 0.5806
+Epoch [6/10] Loss: 1.7641, Train Accuracy: 0.5839
+Epoch [7/10] Loss: 1.7477, Train Accuracy: 0.5935
+Epoch [8/10] Loss: 1.7295, Train Accuracy: 0.5839
+Epoch [9/10] Loss: 1.7105, Train Accuracy: 0.6065
+Epoch [10/10] Loss: 1.7029, Train Accuracy: 0.6000
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 3: 2, 6: 2})
+Predicted Distribution:    Counter({0: 44, 5: 18, 2: 5, 6: 5, 1: 4, 3: 2})
+[hier_model] Test F1 Score: 0.1904, Accuracy: 0.4615
+
+============== Round 2/5 ==============
+
+========== Running baseline_1 ==========
+Running Baseline 1: Random Initialization
+Baseline setup complete
+Epoch [1/10] Loss: 34.8980, Train Accuracy: 0.1484
+Epoch [2/10] Loss: 22.5767, Train Accuracy: 0.2097
+Epoch [3/10] Loss: 14.6168, Train Accuracy: 0.2097
+Epoch [4/10] Loss: 9.2825, Train Accuracy: 0.2000
+Epoch [5/10] Loss: 11.3227, Train Accuracy: 0.2194
+Epoch [6/10] Loss: 15.5380, Train Accuracy: 0.2032
+Epoch [7/10] Loss: 11.3068, Train Accuracy: 0.2097
+Epoch [8/10] Loss: 9.9057, Train Accuracy: 0.2387
+Epoch [9/10] Loss: 16.5892, Train Accuracy: 0.1548
+Epoch [10/10] Loss: 12.0404, Train Accuracy: 0.2323
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({1: 78})
+[baseline_1] Test F1 Score: 0.0345, Accuracy: 0.1154
+
+========== Running baseline_2 ==========
+Running Baseline 2: ImageNet Pretrained + ClinicalBERT
+Baseline setup complete
+Epoch [1/10] Loss: 2.2540, Train Accuracy: 0.1548
+Epoch [2/10] Loss: 1.7404, Train Accuracy: 0.3613
+Epoch [3/10] Loss: 1.4863, Train Accuracy: 0.3548
+Epoch [4/10] Loss: 1.4198, Train Accuracy: 0.3935
+Epoch [5/10] Loss: 1.2523, Train Accuracy: 0.4839
+Epoch [6/10] Loss: 1.2692, Train Accuracy: 0.4323
+Epoch [7/10] Loss: 1.1418, Train Accuracy: 0.5065
+Epoch [8/10] Loss: 1.0788, Train Accuracy: 0.5290
+Epoch [9/10] Loss: 1.0382, Train Accuracy: 0.5452
+Epoch [10/10] Loss: 0.9997, Train Accuracy: 0.6032
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({0: 43, 5: 15, 3: 7, 1: 7, 2: 5, 6: 1})
+[baseline_2] Test F1 Score: 0.3217, Accuracy: 0.5385
+
+========== Running convirt ==========
+Epoch [1/10] Loss: 1.9354, Train Accuracy: 0.1710
+Epoch [2/10] Loss: 1.9179, Train Accuracy: 0.2774
+Epoch [3/10] Loss: 1.8843, Train Accuracy: 0.3323
+Epoch [4/10] Loss: 1.8720, Train Accuracy: 0.3387
+Epoch [5/10] Loss: 1.8455, Train Accuracy: 0.3871
+Epoch [6/10] Loss: 1.8317, Train Accuracy: 0.4613
+Epoch [7/10] Loss: 1.8142, Train Accuracy: 0.4935
+Epoch [8/10] Loss: 1.8010, Train Accuracy: 0.4903
+Epoch [9/10] Loss: 1.7915, Train Accuracy: 0.4903
+Epoch [10/10] Loss: 1.7842, Train Accuracy: 0.5065
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({0: 44, 5: 31, 6: 1, 1: 1, 3: 1})
+[convirt] Test F1 Score: 0.1818, Accuracy: 0.5256
+
+========== Running sequential_convirt ==========
+Epoch [1/10] Loss: 1.9395, Train Accuracy: 0.1000
+Epoch [2/10] Loss: 1.8963, Train Accuracy: 0.1032
+Epoch [3/10] Loss: 1.8582, Train Accuracy: 0.1290
+Epoch [4/10] Loss: 1.8419, Train Accuracy: 0.4419
+Epoch [5/10] Loss: 1.8196, Train Accuracy: 0.5355
+Epoch [6/10] Loss: 1.8110, Train Accuracy: 0.5710
+Epoch [7/10] Loss: 1.8034, Train Accuracy: 0.5290
+Epoch [8/10] Loss: 1.7896, Train Accuracy: 0.5258
+Epoch [9/10] Loss: 1.7917, Train Accuracy: 0.5097
+Epoch [10/10] Loss: 1.7745, Train Accuracy: 0.5097
+Epoch [10/10] Loss: 1.7745, Train Accuracy: 0.5097
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({0: 49, 5: 12, 1: 10, 6: 7})
+[sequential_convirt] Test F1 Score: 0.2406, Accuracy: 0.5897
+
+========== Running hier_model ==========
+Epoch [1/10] Loss: 1.9052, Train Accuracy: 0.3355
+Epoch [2/10] Loss: 1.8645, Train Accuracy: 0.5000
+Epoch [3/10] Loss: 1.8237, Train Accuracy: 0.5516
+Epoch [4/10] Loss: 1.8004, Train Accuracy: 0.5484
+Epoch [5/10] Loss: 1.7782, Train Accuracy: 0.5387
+Epoch [6/10] Loss: 1.7604, Train Accuracy: 0.5387
+Epoch [7/10] Loss: 1.7332, Train Accuracy: 0.5226
+Epoch [8/10] Loss: 1.7286, Train Accuracy: 0.5290
+Epoch [9/10] Loss: 1.6990, Train Accuracy: 0.5258
+Epoch [10/10] Loss: 1.6879, Train Accuracy: 0.5387
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({0: 50, 1: 12, 5: 8, 6: 4, 2: 3, 3: 1})
+[hier_model] Test F1 Score: 0.3030, Accuracy: 0.6026
+
+============== Round 3/5 ==============
+
+========== Running baseline_1 ==========
+Running Baseline 1: Random Initialization
+Baseline setup complete
+Epoch [1/10] Loss: 32.0536, Train Accuracy: 0.1774
+Epoch [2/10] Loss: 16.8569, Train Accuracy: 0.1581
+Epoch [3/10] Loss: 14.2402, Train Accuracy: 0.1774
+Epoch [4/10] Loss: 11.5945, Train Accuracy: 0.1806
+Epoch [5/10] Loss: 17.2492, Train Accuracy: 0.2032
+Epoch [6/10] Loss: 9.1817, Train Accuracy: 0.2226
+Epoch [7/10] Loss: 9.0362, Train Accuracy: 0.2516
+Epoch [8/10] Loss: 8.9325, Train Accuracy: 0.1710
+Epoch [9/10] Loss: 15.2431, Train Accuracy: 0.2161
+Epoch [10/10] Loss: 10.5368, Train Accuracy: 0.2226
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({2: 61, 0: 16, 6: 1})
+[baseline_1] Test F1 Score: 0.0920, Accuracy: 0.2308
+
+========== Running baseline_2 ==========
+Running Baseline 2: ImageNet Pretrained + ClinicalBERT
+Baseline setup complete
+Epoch [1/10] Loss: 2.0894, Train Accuracy: 0.2452
+Epoch [2/10] Loss: 1.7415, Train Accuracy: 0.2516
+Epoch [3/10] Loss: 1.5238, Train Accuracy: 0.3935
+Epoch [4/10] Loss: 1.2837, Train Accuracy: 0.4710
+Epoch [5/10] Loss: 1.2591, Train Accuracy: 0.4548
+Epoch [6/10] Loss: 1.1429, Train Accuracy: 0.5613
+Epoch [7/10] Loss: 1.1490, Train Accuracy: 0.5677
+Epoch [8/10] Loss: 0.9920, Train Accuracy: 0.6387
+Epoch [9/10] Loss: 0.9287, Train Accuracy: 0.6613
+Epoch [10/10] Loss: 0.9607, Train Accuracy: 0.6452
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({5: 36, 0: 20, 1: 15, 2: 7})
+[baseline_2] Test F1 Score: 0.1709, Accuracy: 0.3205
+
+========== Running convirt ==========
+Epoch [1/10] Loss: 1.9408, Train Accuracy: 0.1161
+Epoch [2/10] Loss: 1.9030, Train Accuracy: 0.1355
+Epoch [3/10] Loss: 1.8767, Train Accuracy: 0.1968
+Epoch [4/10] Loss: 1.8621, Train Accuracy: 0.3226
+Epoch [5/10] Loss: 1.8408, Train Accuracy: 0.3742
+Epoch [6/10] Loss: 1.8194, Train Accuracy: 0.4129
+Epoch [7/10] Loss: 1.8004, Train Accuracy: 0.4194
+Epoch [8/10] Loss: 1.7990, Train Accuracy: 0.4355
+Epoch [9/10] Loss: 1.7744, Train Accuracy: 0.4387
+Epoch [10/10] Loss: 1.7651, Train Accuracy: 0.4419
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({0: 36, 5: 32, 1: 10})
+[convirt] Test F1 Score: 0.1505, Accuracy: 0.3974
+
+========== Running sequential_convirt ==========
+Epoch [1/10] Loss: 1.9383, Train Accuracy: 0.1645
+Epoch [2/10] Loss: 1.8760, Train Accuracy: 0.5129
+Epoch [3/10] Loss: 1.8574, Train Accuracy: 0.5548
+Epoch [4/10] Loss: 1.8331, Train Accuracy: 0.5581
+Epoch [5/10] Loss: 1.8034, Train Accuracy: 0.5516
+Epoch [6/10] Loss: 1.7935, Train Accuracy: 0.5710
+Epoch [7/10] Loss: 1.7784, Train Accuracy: 0.5645
+Epoch [8/10] Loss: 1.7757, Train Accuracy: 0.5516
+Epoch [9/10] Loss: 1.7623, Train Accuracy: 0.5387
+Epoch [10/10] Loss: 1.7690, Train Accuracy: 0.5484
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({0: 54, 1: 16, 6: 5, 5: 3})
+[sequential_convirt] Test F1 Score: 0.1464, Accuracy: 0.5000
+
+========== Running hier_model ==========
+Epoch [1/10] Loss: 1.9591, Train Accuracy: 0.2258
+Epoch [2/10] Loss: 1.9091, Train Accuracy: 0.3806
+Epoch [3/10] Loss: 1.8734, Train Accuracy: 0.4290
+Epoch [4/10] Loss: 1.8382, Train Accuracy: 0.4548
+Epoch [5/10] Loss: 1.8113, Train Accuracy: 0.4871
+Epoch [6/10] Loss: 1.7959, Train Accuracy: 0.4645
+Epoch [7/10] Loss: 1.7626, Train Accuracy: 0.4871
+Epoch [8/10] Loss: 1.7500, Train Accuracy: 0.4806
+Epoch [9/10] Loss: 1.7444, Train Accuracy: 0.4774
+Epoch [10/10] Loss: 1.7194, Train Accuracy: 0.4871
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({5: 32, 0: 30, 6: 8, 1: 6, 2: 2})
+[hier_model] Test F1 Score: 0.2510, Accuracy: 0.4231
+Predicted Distribution:    Counter({5: 32, 0: 30, 6: 8, 1: 6, 2: 2})
+[hier_model] Test F1 Score: 0.2510, Accuracy: 0.4231
+
+
+============== Round 4/5 ==============
+========== Running baseline_1 ==========
+Running Baseline 1: Random Initialization
+Baseline setup complete
+Epoch [1/10] Loss: 26.7674, Train Accuracy: 0.1903
+Epoch [2/10] Loss: 14.8286, Train Accuracy: 0.2097
+Epoch [3/10] Loss: 13.1798, Train Accuracy: 0.2290
+Epoch [4/10] Loss: 11.9067, Train Accuracy: 0.1581
+Epoch [5/10] Loss: 9.5436, Train Accuracy: 0.2258
+Epoch [6/10] Loss: 10.8718, Train Accuracy: 0.1452
+Epoch [7/10] Loss: 12.3617, Train Accuracy: 0.2548
+Epoch [8/10] Loss: 7.0100, Train Accuracy: 0.2258
+Epoch [9/10] Loss: 6.8035, Train Accuracy: 0.1968
+Epoch [10/10] Loss: 6.4951, Train Accuracy: 0.2387
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 3: 2, 6: 2})
+Predicted Distribution:    Counter({2: 71, 6: 7})
+[baseline_1] Test F1 Score: 0.0219, Accuracy: 0.0641
+
+========== Running baseline_2 ==========
+Running Baseline 2: ImageNet Pretrained + ClinicalBERT
+Baseline setup complete
+Epoch [1/10] Loss: 2.1839, Train Accuracy: 0.1839
+Epoch [2/10] Loss: 1.6612, Train Accuracy: 0.3839
+Epoch [3/10] Loss: 1.5595, Train Accuracy: 0.3161
+Epoch [4/10] Loss: 1.4104, Train Accuracy: 0.3871
+Epoch [5/10] Loss: 1.2392, Train Accuracy: 0.5258
+Epoch [6/10] Loss: 1.2344, Train Accuracy: 0.4903
+Epoch [7/10] Loss: 1.2988, Train Accuracy: 0.4774
+Epoch [8/10] Loss: 1.0956, Train Accuracy: 0.5645
+Epoch [9/10] Loss: 1.0864, Train Accuracy: 0.5581
+Epoch [10/10] Loss: 1.0394, Train Accuracy: 0.5742
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 3: 2, 6: 2})
+Predicted Distribution:    Counter({0: 39, 5: 16, 2: 12, 1: 10, 6: 1})
+[baseline_2] Test F1 Score: 0.2931, Accuracy: 0.5513
+
+========== Running convirt ==========
+Epoch [1/10] Loss: 1.9280, Train Accuracy: 0.1194
+Epoch [2/10] Loss: 1.8998, Train Accuracy: 0.2839
+Epoch [3/10] Loss: 1.8788, Train Accuracy: 0.3968
+Epoch [4/10] Loss: 1.8592, Train Accuracy: 0.4581
+Epoch [5/10] Loss: 1.8390, Train Accuracy: 0.4871
+Epoch [6/10] Loss: 1.8204, Train Accuracy: 0.5065
+Epoch [7/10] Loss: 1.8011, Train Accuracy: 0.5097
+Epoch [8/10] Loss: 1.7869, Train Accuracy: 0.5129
+Epoch [9/10] Loss: 1.7742, Train Accuracy: 0.5194
+Epoch [10/10] Loss: 1.7699, Train Accuracy: 0.5161
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 3: 2, 6: 2})
+Predicted Distribution:    Counter({0: 52, 1: 13, 5: 9, 2: 4})
+[convirt] Test F1 Score: 0.1673, Accuracy: 0.5000
+
+========== Running sequential_convirt ==========
+Epoch [1/10] Loss: 1.9374, Train Accuracy: 0.4452
+Epoch [2/10] Loss: 1.8857, Train Accuracy: 0.5613
+Epoch [3/10] Loss: 1.8610, Train Accuracy: 0.5903
+Epoch [4/10] Loss: 1.8268, Train Accuracy: 0.5806
+Epoch [5/10] Loss: 1.8256, Train Accuracy: 0.5677
+Epoch [6/10] Loss: 1.8014, Train Accuracy: 0.5613
+Epoch [7/10] Loss: 1.7804, Train Accuracy: 0.5581
+Epoch [8/10] Loss: 1.7905, Train Accuracy: 0.5581
+Epoch [9/10] Loss: 1.7762, Train Accuracy: 0.5581
+Epoch [10/10] Loss: 1.7767, Train Accuracy: 0.5355
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 3: 2, 6: 2})
+Predicted Distribution:    Counter({0: 52, 1: 19, 5: 5, 6: 2})
+[sequential_convirt] Test F1 Score: 0.1906, Accuracy: 0.5385
+
+========== Running hier_model ==========
+Epoch [1/10] Loss: 1.9342, Train Accuracy: 0.2903
+Epoch [2/10] Loss: 1.8831, Train Accuracy: 0.4613
+Epoch [3/10] Loss: 1.8537, Train Accuracy: 0.5548
+Epoch [4/10] Loss: 1.8160, Train Accuracy: 0.5548
+Epoch [5/10] Loss: 1.7978, Train Accuracy: 0.5903
+Epoch [6/10] Loss: 1.7709, Train Accuracy: 0.6000
+Epoch [7/10] Loss: 1.7591, Train Accuracy: 0.5774
+Epoch [8/10] Loss: 1.7344, Train Accuracy: 0.5645
+Epoch [9/10] Loss: 1.7284, Train Accuracy: 0.5903
+Epoch [10/10] Loss: 1.6984, Train Accuracy: 0.5839
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 3: 2, 6: 2})
+Predicted Distribution:    Counter({0: 52, 1: 15, 5: 9, 2: 1, 6: 1})
+[hier_model] Test F1 Score: 0.2037, Accuracy: 0.5641
+
+============== Round 5/5 ==============
+
+========== Running baseline_1 ==========
+Running Baseline 1: Random Initialization
+Baseline setup complete
+Epoch [1/10] Loss: 24.8480, Train Accuracy: 0.1484
+Epoch [2/10] Loss: 27.2222, Train Accuracy: 0.2355
+Epoch [3/10] Loss: 13.7689, Train Accuracy: 0.2548
+Epoch [4/10] Loss: 13.7576, Train Accuracy: 0.2355
+Epoch [5/10] Loss: 7.8195, Train Accuracy: 0.2710
+Epoch [6/10] Loss: 8.5444, Train Accuracy: 0.2387
+Epoch [7/10] Loss: 8.8846, Train Accuracy: 0.1548
+Epoch [8/10] Loss: 9.9015, Train Accuracy: 0.2903
+Epoch [9/10] Loss: 10.8420, Train Accuracy: 0.1677
+Epoch [10/10] Loss: 6.8992, Train Accuracy: 0.2129
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({1: 28, 5: 27, 0: 23})
+[baseline_1] Test F1 Score: 0.1362, Accuracy: 0.3077
+
+========== Running baseline_2 ==========
+Running Baseline 2: ImageNet Pretrained + ClinicalBERT
+Baseline setup complete
+Epoch [1/10] Loss: 2.0913, Train Accuracy: 0.2548
+Epoch [2/10] Loss: 1.6692, Train Accuracy: 0.3129
+Epoch [3/10] Loss: 1.5394, Train Accuracy: 0.4516
+Epoch [4/10] Loss: 1.3153, Train Accuracy: 0.5419
+Epoch [5/10] Loss: 1.2428, Train Accuracy: 0.5355
+Epoch [6/10] Loss: 1.1432, Train Accuracy: 0.5677
+Epoch [7/10] Loss: 1.0623, Train Accuracy: 0.5226
+Epoch [8/10] Loss: 0.9754, Train Accuracy: 0.6484
+Epoch [9/10] Loss: 0.9622, Train Accuracy: 0.6742
+Epoch [10/10] Loss: 0.8851, Train Accuracy: 0.6548
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({0: 36, 1: 20, 5: 8, 3: 8, 6: 3, 2: 3})
+[baseline_2] Test F1 Score: 0.3064, Accuracy: 0.4487
+
+========== Running convirt ==========
+Epoch [1/10] Loss: 1.9482, Train Accuracy: 0.2000
+Epoch [2/10] Loss: 1.9248, Train Accuracy: 0.4226
+Epoch [3/10] Loss: 1.8992, Train Accuracy: 0.4806
+Epoch [4/10] Loss: 1.8743, Train Accuracy: 0.5000
+Epoch [5/10] Loss: 1.8554, Train Accuracy: 0.5194
+Epoch [6/10] Loss: 1.8291, Train Accuracy: 0.5323
+Epoch [7/10] Loss: 1.8252, Train Accuracy: 0.5484
+Epoch [8/10] Loss: 1.8133, Train Accuracy: 0.5548
+Epoch [9/10] Loss: 1.7908, Train Accuracy: 0.5355
+Epoch [10/10] Loss: 1.7887, Train Accuracy: 0.5290
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({0: 52, 1: 12, 5: 9, 2: 5})
+[convirt] Test F1 Score: 0.2188, Accuracy: 0.5128
+
+========== Running sequential_convirt ==========
+Epoch [1/10] Loss: 1.9243, Train Accuracy: 0.1129
+Epoch [2/10] Loss: 1.8816, Train Accuracy: 0.4226
+Epoch [3/10] Loss: 1.8463, Train Accuracy: 0.6032
+Epoch [4/10] Loss: 1.8258, Train Accuracy: 0.6097
+Epoch [5/10] Loss: 1.8053, Train Accuracy: 0.5968
+Epoch [6/10] Loss: 1.8012, Train Accuracy: 0.5935
+Epoch [7/10] Loss: 1.7846, Train Accuracy: 0.5774
+Epoch [8/10] Loss: 1.7684, Train Accuracy: 0.5774
+Epoch [9/10] Loss: 1.7671, Train Accuracy: 0.5516
+Epoch [10/10] Loss: 1.7643, Train Accuracy: 0.5484
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({0: 48, 1: 24, 5: 5, 6: 1})
+[sequential_convirt] Test F1 Score: 0.1510, Accuracy: 0.4487
+
+========== Running hier_model ==========
+Epoch [1/10] Loss: 1.9201, Train Accuracy: 0.1806
+Epoch [2/10] Loss: 1.8757, Train Accuracy: 0.2613
+Epoch [3/10] Loss: 1.8381, Train Accuracy: 0.3097
+Epoch [4/10] Loss: 1.8106, Train Accuracy: 0.4065
+Epoch [5/10] Loss: 1.7863, Train Accuracy: 0.4548
+Epoch [6/10] Loss: 1.7655, Train Accuracy: 0.4742
+Epoch [7/10] Loss: 1.7482, Train Accuracy: 0.4968
+Epoch [8/10] Loss: 1.7155, Train Accuracy: 0.5258
+Epoch [9/10] Loss: 1.7056, Train Accuracy: 0.5258
+Epoch [10/10] Loss: 1.6929, Train Accuracy: 0.5323
+Ground Truth Distribution: Counter({0: 49, 5: 11, 1: 9, 2: 5, 6: 2, 3: 2})
+Predicted Distribution:    Counter({0: 37, 5: 22, 1: 11, 6: 7, 2: 1})
+[hier_model] Test F1 Score: 0.2605, Accuracy: 0.4359
+
+Saved all experiment results to classification_img_results.csv

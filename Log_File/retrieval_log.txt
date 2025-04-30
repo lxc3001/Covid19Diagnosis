@@ -1,0 +1,332 @@
+
+============== Round 1/5 ==============
+
+========== Running baseline_1 ==========
+Running Baseline 1: Random Initialization
+Baseline setup complete
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0129
+Recall@10: 0.0258
+
+Text-to-Image Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0180
+Recall@10: 0.0284
+
+========== Running baseline_2 ==========
+Running Baseline 2: ImageNet Pretrained + ClinicalBERT
+Baseline setup complete
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0103
+Recall@10: 0.0258
+
+Text-to-Image Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0180
+Recall@10: 0.0284
+
+========== Running convirt ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0052
+Recall@5: 0.0206
+Recall@10: 0.0335
+
+Text-to-Image Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0232
+Recall@10: 0.0387
+
+========== Running sequential_convirt ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0103
+Recall@10: 0.0258
+
+Text-to-Image Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0129
+Recall@10: 0.0284
+
+========== Running hier_model ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0258
+Recall@10: 0.0438
+
+Text-to-Image Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0180
+Recall@10: 0.0541
+
+============== Round 2/5 ==============
+
+========== Running baseline_1 ==========
+Running Baseline 1: Random Initialization
+Baseline setup complete
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0103
+Recall@10: 0.0284
+
+Text-to-Image Retrieval:
+Recall@1: 0.0000
+Recall@5: 0.0129
+Recall@10: 0.0232
+
+========== Running baseline_2 ==========
+Running Baseline 2: ImageNet Pretrained + ClinicalBERT
+Baseline setup complete
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0155
+Recall@10: 0.0232
+
+Text-to-Image Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0180
+Recall@10: 0.0309
+
+========== Running convirt ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0052
+Recall@5: 0.0206
+Recall@10: 0.0335
+
+Text-to-Image Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0232
+Recall@10: 0.0387
+
+========== Running sequential_convirt ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0103
+Recall@10: 0.0258
+
+Text-to-Image Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0129
+Recall@10: 0.0284
+
+========== Running hier_model ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0258
+Recall@10: 0.0438
+
+Text-to-Image Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0180
+Recall@10: 0.0541
+
+============== Round 3/5 ==============
+
+========== Running baseline_1 ==========
+Running Baseline 1: Random Initialization
+Baseline setup complete
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0155
+Recall@10: 0.0258
+
+Text-to-Image Retrieval:
+Recall@1: 0.0052
+Recall@5: 0.0155
+Recall@10: 0.0232
+
+========== Running baseline_2 ==========
+Running Baseline 2: ImageNet Pretrained + ClinicalBERT
+Baseline setup complete
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0180
+Recall@10: 0.0335
+
+Text-to-Image Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0077
+Recall@10: 0.0258
+
+========== Running convirt ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0052
+Recall@5: 0.0206
+Recall@10: 0.0335
+
+Text-to-Image Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0232
+Recall@10: 0.0387
+
+========== Running sequential_convirt ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0103
+Recall@10: 0.0258
+
+Text-to-Image Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0129
+Recall@10: 0.0284
+
+========== Running hier_model ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0258
+Recall@10: 0.0438
+
+Text-to-Image Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0180
+Recall@10: 0.0541
+
+============== Round 4/5 ==============
+
+========== Running baseline_1 ==========
+Running Baseline 1: Random Initialization
+Baseline setup complete
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0129
+Recall@10: 0.0232
+
+Text-to-Image Retrieval:
+Recall@1: 0.0000
+Recall@5: 0.0103
+Recall@10: 0.0258
+
+========== Running baseline_2 ==========
+Running Baseline 2: ImageNet Pretrained + ClinicalBERT
+Baseline setup complete
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0206
+Recall@10: 0.0309
+
+Text-to-Image Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0077
+Recall@10: 0.0155
+
+========== Running convirt ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0052
+Recall@5: 0.0206
+Recall@10: 0.0335
+
+Text-to-Image Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0232
+Recall@10: 0.0387
+
+========== Running sequential_convirt ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0103
+Recall@10: 0.0258
+
+Text-to-Image Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0129
+Recall@10: 0.0284
+
+========== Running hier_model ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0258
+Recall@10: 0.0438
+
+Text-to-Image Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0180
+Recall@10: 0.0541
+
+============== Round 5/5 ==============
+
+========== Running baseline_1 ==========
+Running Baseline 1: Random Initialization
+Baseline setup complete
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0129
+Recall@10: 0.0258
+
+Text-to-Image Retrieval:
+Recall@1: 0.0000
+Recall@5: 0.0180
+Recall@10: 0.0232
+
+========== Running baseline_2 ==========
+Running Baseline 2: ImageNet Pretrained + ClinicalBERT
+Baseline setup complete
+
+Image-to-Text Retrieval:
+Recall@1: 0.0052
+Recall@5: 0.0206
+Recall@10: 0.0387
+
+Text-to-Image Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0129
+Recall@10: 0.0309
+
+========== Running convirt ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0052
+Recall@5: 0.0206
+Recall@10: 0.0335
+
+Text-to-Image Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0232
+Recall@10: 0.0387
+
+========== Running sequential_convirt ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0103
+Recall@10: 0.0258
+
+Text-to-Image Retrieval:
+Recall@1: 0.0026
+Recall@5: 0.0129
+Recall@10: 0.0284
+
+========== Running hier_model ==========
+
+Image-to-Text Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0258
+Recall@10: 0.0438
+
+Text-to-Image Retrieval:
+Recall@1: 0.0077
+Recall@5: 0.0180
+Recall@10: 0.0541
+
+Saved all experiment results to retrieval_results.csv
