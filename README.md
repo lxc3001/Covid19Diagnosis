@@ -66,10 +66,7 @@ Baselines reasults are also included in classification and retrieval task:
 Both baselines will be evaluated together and saved in the result files.
 
 ### Preliminairy results
-Trained model results folder:
-- `convirt_checkpoints` for ConVIRT architecture
-- `temporal_checkpoints` for sequential temporal model
-- `hier_checkpoints` for hierarchical model with strong/weak positive pairs
+Trained model results too big cannot upload to github
 
 Classification Results:
 - `classification_img_results.csv` for image-only classification
